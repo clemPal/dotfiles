@@ -84,6 +84,12 @@ Plugin 'vimoutliner/vimoutliner'
 Plugin 'othree/html5.vim'
 Plugin 'mattn/emmet-vim'
 
+" python integration
+Plugin 'klen/python-mode'
+" TODO look at the git repo.
+"
+"
+
 " TODO apprendre
 
 call vundle#end()
@@ -94,7 +100,6 @@ filetype indent plugin on
 " Enable syntax highlighting
 syntax on
 
-helptags ~/.vim/doc
 set backup
 set backupdir=~/.vim/backup
 set directory=~/.vim/tmp
@@ -129,6 +134,7 @@ set hidden
 set wildmenu
 set wildignore+=*.swp,*.swo
 set wildignore+=*.pdf
+set wildignore+=*.pyc
 set wildignore+=*.jpg,*.bmp,*.gif
 set wildignore+=*.o,*.dll,*.obj,*.exe
 
@@ -222,7 +228,7 @@ set number
 set notimeout ttimeout ttimeoutlen=200
 
 " Use <F11> to toggle between 'paste' and 'nopaste'
-set pastetoggle=<F11>
+set pastetoggle=<F5>
 
 
 "------------------------------------------------------------
@@ -301,7 +307,7 @@ let g:goyo_callbacks = [function('GoyoBefore'), function('GoyoAfter')]
 " vim-airline
 let g:airline_powerline_fonts=0
 let g:airline_exclude_preview=1
-let g:pwerline_loaded=1
+let g:powerline_loaded=1
 
 " vim-solarized
 set t_Co=256
