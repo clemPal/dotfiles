@@ -1,7 +1,3 @@
 [user]
-	name = Cyril Seydoux
-	email = c.seydoux@gmx.com
-[core]
-	editor = vim
-[merge]
-	tool = vimdiff
+	name = user-name
+	email = user-email
