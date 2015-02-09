@@ -3,7 +3,6 @@ ln -s dotfiles/.bash_profile ~/
 ln -sf dotfiles/.bashrc ~/
 ln -s dotfiles/.gitconfig ~/
 ln -s dotfiles/.git-prompt.sh ~/
-ln -s dotfiles/.vim ~/
 ln -s dotfiles/.vimrc ~/
 ln -s dotfiles/.tmux.conf ~/
 ~/.bash_profile
